@@ -1,0 +1,458 @@
+h1 {
+color: white;
+font-size: 36px;
+font-weight: bold;
+text-align: center;
+margin: 0;
+padding: 20px 0;
+}
+h2 {
+color: white;
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+margin: 0;
+padding: 20px 0;
+}
+
+body{
+    background-color: black;
+    font-family: Verdana, Arial, Geneva;
+}
+
+/* First page Style */
+.bg-overlay{
+padding-top: 50px;
+background: url('https://wallpapers.com/images/high/rain-nature-droplets-0lzzog2jjmmdpojd.webp')no-repeat center center fixed;
+background-size: cover;
+height: 800px;
+text-align: center;
+}
+
+.moving-clouds {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 250.625em;
+  height: 43.75em;
+  -webkit-animation: cloudLoop 80s linear infinite;
+  animation: cloudLoop 80s linear infinite;
+}
+
+@keyframes cloudLoop {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+.following img {
+  max-width: 70px;
+}
+
+.page1{
+padding-top: 15%;
+padding-bottom:20%;
+color: white;
+  
+}
+
+.page1 > h1 {
+padding: 20px;
+font-size: 5em;
+font-family: Montserrat;
+}
+
+.page1 > h3{
+padding: 20px;
+font-size: 2em;
+font-family: Montserrat;  
+}
+
+.adresses > li{
+padding: 0px 20px;
+}
+ 
+li > .btn {
+  margin:5px 0px;
+  letter-spacing: 2px;
+  transition: 1s;
+}
+
+li > .btn:hover {
+  transform:scale(1.5);
+  transition: 0.2s;
+  letter-spacing: 3px;
+}
+/* End of first page Style */
+/* Second Page Style */
+.projects-content {
+  padding-top: 50px;
+  background: url('https://wallpapercave.com/wp/wp9212222.jpg') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.bg-overlay2 {
+  margin-top: -50px;
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 800px;
+}
+
+
+
+.proiect1 {
+padding: 20px;
+transition: 0.1s;
+opacity: 0.9;
+}
+
+.proiect1:hover {
+transform: scale(1.1);
+opacity: 1;
+}
+
+.proiect2{
+padding: 20px;
+transition: 0.1s;
+opacity: 0.9;
+}
+.proiect2:hover{
+transform: scale(1.1);
+opacity: 1;
+}
+
+#imgpro1{
+  width: 150%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: absolute;
+  top: 30px;
+  left: 1px;
+}
+#imgpro2{
+ width:150%;
+  height:380px;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 10px;
+}
+
+/* End of Second Page Style */
+
+/* Start of model Page Style*/
+
+.inputPage{
+padding-top: 50px;
+background: url('https://wallpapercave.com/wp/wp9212197.jpg')no-repeat center center fixed;
+background-size:cover;
+}
+
+.bg-overlay4{
+margin-top: -50px;
+min-height: 800px;
+background: rgba(0, 0, 0, 0.6);
+}
+legend{
+   color: green;
+}
+#contact_form {
+  float: left;
+  margin-top: 60px;
+  width: 900px;
+  height: 600px;
+  border: 4px solid green;
+  padding: 20px;
+  background-color: hsla(115, 100%, 1%, 0.88);
+} 
+
+label {
+  color: green;
+  font-size:1.5rem;
+}
+
+    .textbox {
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      padding: 5px;
+      display: inline-block;
+      margin-top: 50px;
+      float: right;
+      margin-right: -50px;
+      width: 200px;
+      height: 500px;
+    }
+/* End of model Page Style*/
+
+
+.resultPage2{
+padding-top: 50px;
+background: url('https://wallpapercave.com/wp/wp9212197.jpg')no-repeat center center fixed;
+background-size:cover;
+text-align: center;
+}
+.z-1 {
+ 
+  margin: 50px auto 0;
+  max-width: 1200px;
+  max-height: 850px;
+ }
+.hide {
+  display: none;
+}
+
+
+/* pins go here*/ 
+.najam1 {
+  /*omidyeh */
+  position: absolute;
+  margin-left: 900px;
+  margin-top: -540px;
+  z-index:999;
+}
+/*behbahan */
+.najam2 {
+  position: absolute;
+  margin-left: 910px;
+  margin-top: -380px;
+  z-index:999;
+}
+/*ramshir */
+.najam3 {
+  position: absolute;
+  margin-left: 650px;
+  margin-top: -450px;
+  z-index:999;
+}
+/*shadegan */
+.najam4 {
+  position: absolute;
+  margin-left: 450px;
+  margin-top: -320px;
+  z-index:999;
+}
+/*ramhormoz */
+.najam5 {
+  position: absolute;
+  margin-left: 770px;
+  margin-top: -520px;
+  z-index:999;
+}
+/*dam1 */
+.najam6 {
+  position: absolute;
+  margin-left: 730px;
+  margin-top: -655px;
+  z-index:999;
+}
+/*dam2 */
+.najam7 {
+  position: absolute;
+  margin-left: 990px;
+  margin-top: -360px;
+  z-index:999;
+}
+
+/*river1 */
+.najam8 {
+  position: absolute;
+  margin-left: 825px;
+  margin-top: -700px;
+  z-index:999;
+}
+/*river2 */
+.najam9 {
+  position: absolute;
+  margin-left: 1239px;
+  margin-top: -490px;
+  z-index:999;
+}
+/* tool tips text formatting here*/ 
+#tooltip-1 {
+  font-family: Arial;
+  padding: 20px;
+  text-align: center;
+  min-width: 100px;
+  background-color: white;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.18);
+  box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.18);
+}
+
+#tooltip-2 {
+  font-family: Arial;
+  padding: 20px;
+  text-align: center;
+  min-width: 100px;
+  background-color: white;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.18);
+  box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.18);
+}
+
+#tooltip-3 {
+  font-family: Arial;
+  padding: 20px;
+  text-align: center;
+  min-width: 100px;
+  background-color: white;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.18);
+  box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.18);
+}
+#tooltip-4 {
+  font-family: Arial;
+  padding: 20px;
+  text-align: center;
+  min-width: 100px;
+  background-color: white;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.18);
+  box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.18);
+}
+
+
+
+
+
+
+/* Start of result Page Style*/
+
+.resultPage{
+padding-top: 50px;
+background: url('https://wallpapercave.com/wp/wp9212197.jpg')no-repeat center center fixed;
+background-size:cover;
+text-align: center;
+}
+
+.bg-overlay4{
+margin-top: -50px;
+min-height: 800px;
+background: rgba(0, 0, 0, 0.6);
+}
+
+* { box-sizing: border-box; }
+body {
+  color: #fff;
+  font-family: Avenir, Calibri, sans-serif;
+}
+#khuzestan-map {
+  margin:10mm;
+  margin-left: 40mm;
+}
+#khuzestan-map { 
+  fill: hsl(120, 55%, 20%);
+}
+#khuzestan-map g {
+  transition: .3s;
+}
+#khuzestan-map g:hover { 
+  fill: hsl(120, 55%, 40%);
+  cursor: pointer;
+}
+
+#ramshir { 
+  fill: hsl(120, 70%, 15%);
+}
+#ramshir g:hover { 
+  fill: hsl(120, 70%, 70%);
+  cursor: pointer;
+}
+
+#omideyeh { 
+  fill: hsl(120, 70%, 15%);
+}
+#omideyeh g:hover { 
+  fill: hsl(120, 70%, 70%);
+  cursor: pointer;
+}
+
+
+#ramhormoz {
+   fill: hsl(120, 70%, 15%);
+}
+#ramhormoz g:hover { 
+  fill: hsl(120, 70%, 70%);
+  cursor: pointer;
+}
+
+
+#shadegan  {
+  fill: hsl(120, 70%, 15%);
+}
+#shadegan g:hover { 
+  fill: hsl(120, 70%, 70%);
+  cursor: pointer;
+}
+
+#behbahan  {
+  fill: hsl(120, 70%, 15%);
+}
+#behbahan g:hover { 
+  fill: hsl(120, 70%, 70%);
+  cursor: pointer;
+}
+
+
+.active, .active:hover { 
+  fill: hsl(240, 55%, 40%) !important;
+}		
+ #provinceInfo {
+float:right;
+margin-bottom: ;
+margin-right: 20px;
+width: 25%;
+background: rgba(0,0,0,0.2);
+pointer-events: none;
+opacity: 0;
+transition: 1s;
+overflow: auto;
+max-height: 500px; // Set max height
+}
+}
+
+@media all and (max-width: 800px) {
+  #provinceInfo { width: 40%; }
+}
+@media all and (max-width: 750px) {
+  #provinceInfo { 
+    width: 100%; 
+    position: static; 
+    background: none;
+  }
+  
+  #provinceInfo.show p { 
+  color: #000 !important; 
+  margin-bottom: 2rem; 
+  }
+}
+#provinceInfo.show { opacity: 1; }
+#provinceInfo h1 {
+  background: hsl(240, 55%, 40%);
+  padding: .3rem;
+  padding-left: 1rem;
+  margin-top: -.5rem;
+  font-weight: 400;
+}
+#provinceInfo p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+#provinceInfo img {
+  width: 100%;
+}
+/* End of result Page Style*/
+
+
+/* End of result Page Style*/
